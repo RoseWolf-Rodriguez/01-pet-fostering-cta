@@ -8,8 +8,12 @@ body {
 
 /* Style the CTA banner */
 .cta-banner {
-  background: linear-gradient(to bottom right, #2193b0, #6dd5ed); /* blue to teal gradient */
-  color: #fff;
+  /* Set background image with a light overlay using a simple linear-gradient */
+  background:
+    linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
+    url('img/cta-bg.jpg') center center no-repeat;
+  background-size: cover;
+  color: #007c7a; /* dark teal for text to keep it readable */
   text-align: center;
   padding: 100px 20px; /* increased top and bottom padding for more space */
   min-height: 350px;
@@ -56,4 +60,20 @@ body {
 /* Button hover effect */
 .cta-button:hover {
   background-color: #007c7a;
+}
+
+/* Simple site header styling */
+.site-header {
+  background-color: #007c7a; /* dark teal */
+  color: #fff;
+  text-align: center;
+  padding: 18px 0;
+  border-bottom: 6px solid #6dd5ed; /* increased border thickness */
+}
+
+.site-header h2 {
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: 2px;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
