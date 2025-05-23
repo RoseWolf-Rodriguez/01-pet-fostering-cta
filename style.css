@@ -1,0 +1,59 @@
+/* Use a modern, easy-to-read font */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f4f8; /* light blue background for the page */
+}
+
+/* Style the CTA banner */
+.cta-banner {
+  background: linear-gradient(to bottom right, #2193b0, #6dd5ed); /* blue to teal gradient */
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px; /* increased top and bottom padding for more space */
+  min-height: 350px;
+}
+
+/* Style the main heading */
+.cta-banner h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Add more space between elements inside the banner */
+.cta-banner header {
+  margin-bottom: 36px;
+}
+
+/* Style the description */
+.cta-banner p {
+  font-size: 1.2em;
+  margin-bottom: 40px; /* increased space below the description */
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style the call-to-action button */
+.cta-button {
+  display: inline-block;
+  background-color: #00bfae; /* bright teal */
+  color: #fff;
+  padding: 16px 36px;
+  font-size: 1.1em;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  /* Make the button stand out */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: background 0.2s;
+}
+
+/* Button hover effect */
+.cta-button:hover {
+  background-color: #007c7a;
+}
